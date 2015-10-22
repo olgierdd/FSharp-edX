@@ -1,6 +1,11 @@
-﻿open System
- 
- 
+﻿//Application that uses the Golden Ratio to calculate
+//a product for each value in a sequence or list.
+//The user enters sequence of numbers. After user enter 'q' letter
+//the application print sequence 
+//of pairs having the original number and corresponding golden ration 
+
+open System
+  
 let goldenRatio = ( 1.0 + System.Math.Sqrt(5.0)) / 2.0
  
 let getNumbers =
